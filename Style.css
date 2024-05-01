@@ -1,0 +1,40 @@
+.col{
+    transition: transform 0.5s ease-in-out ;
+}
+.right{
+    top: 0;
+    left: 35%;
+    width: 65%;
+    height: 100vh;
+}
+.right  > div{
+   background-size: cover;
+   height: 100%;
+   width: 100%;
+}
+button{
+    cursor: pointer;
+}
+button:hover{
+    color: #222;
+}
+button:focus{
+    outline: none;
+}
+.second .action-buttons {
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+}
+.second .action-buttons .down-button{
+    transform: translateX(-100%);
+}
+.left{
+    left: 0;
+    z-index: 50;
+}
+.up-button {
+    transform: translateY(-100%);
+}
